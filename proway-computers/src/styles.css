@@ -52,17 +52,17 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 
   content: '';
+  content: none;
 
 }
 
-.container {
 
-  width: "80%";
-  margin: auto;
-  padding: 20px;
+table {
+
+  border-collapse: collapse;
+  border-spacing: 0;
 
 }
-
 
 :root {
 
@@ -76,10 +76,8 @@ q:before, q:after {
 
 }
 
-table {
 
-  border-collapse: collapse;
-  border-spacing: 0;
 
-}
+
+
 

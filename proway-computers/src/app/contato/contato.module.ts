@@ -4,8 +4,8 @@ import { CommonModule } from '@angular/common';
 import { ContatoRoutingModule } from './contato-routing.module';
 import { ContatoComponent } from './contato.component';
 import { ReactiveFormsModule } from '@angular/forms';
-//import { NgxMaskModule } from 'ngx-mask'
-
+//import { NgxMaskModule, IConfig } from 'ngx-mask'
+//import { NgxMaskModule, IConfig } from 'ngx-mask'
 
 @NgModule({
   declarations: [
@@ -16,7 +16,10 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContatoRoutingModule,
     ReactiveFormsModule,
     //NgxMaskModule.forRoot(maskConfig),
-    //NgxMaskModule.forRoot()
+    //NgxMaskModule.forRoot(),
+    //NgxMaskModule
+    //NgxMaskModule.forRoot(maskConfig)
+    //NgxMaskModule.forRoot(maskConfigFunction),
   ]
 
 })

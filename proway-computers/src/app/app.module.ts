@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -1,5 +1,6 @@
 import { CarrinhoService } from './../carrinho.service';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -10,12 +11,18 @@ export class HeaderComponent implements OnInit {
 
   constructor(
 
-    public carrinhoService: CarrinhoService
+    public carrinhoService: CarrinhoService,
+    private router: Router
 
   ) { }
 
   ngOnInit(): void {
 
+    //this.router.navigate(["produtos"]);
+    //this.router.navigate(["carrinho"]);
+
   }
+
+
 
 }

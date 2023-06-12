@@ -1,7 +1,8 @@
-import { Routes } from '@angular/router';
+//import { Routes } from '@angular/router';
 import { IProdutoCarrinho } from '../produtos';
 import { CarrinhoService } from './../carrinho.service';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-carrinho',
@@ -13,10 +14,16 @@ export class CarrinhoComponent implements OnInit{
   itensCarrinho: IProdutoCarrinho [] = [];
   total = 0;
 
-  constructor (
+  //constructor (
 
-      public carrinhoService: CarrinhoService,
+      //public carrinhoService: CarrinhoService,
       //private router: Routes
+
+  //) { }
+
+  constructor(
+    public carrinhoService: CarrinhoService,
+    private router: Router
 
   ) { }
 
@@ -24,6 +31,7 @@ export class CarrinhoComponent implements OnInit{
 
     this.itensCarrinho = this.carrinhoService.obtemCarrinho();
     this.calculaTotal();
+
 
   }
 
@@ -47,7 +55,9 @@ export class CarrinhoComponent implements OnInit{
     alert("Parabéns, você finalizou sua compra!");
     this.carrinhoService.limparCarrinho();
     //this.router.navigate(["produtos"]);
-
+    this.router.navigate(["produtos"]);
   }
 
 }
+
+

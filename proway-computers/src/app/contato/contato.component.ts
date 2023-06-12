@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
+//import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-contato',
@@ -46,7 +47,8 @@ export class ContatoComponent implements OnInit{
 
   constructor(
 
-    private fb: FormBuilder
+    private fb: FormBuilder,
+    //private router: Router
 
   ) {}
 
@@ -54,7 +56,7 @@ export class ContatoComponent implements OnInit{
 
   ngOnInit(): void {
 
-
+    //this.router.navigate(["contato"]);
   }
 
   enviarFormulario() {
@@ -62,4 +64,6 @@ export class ContatoComponent implements OnInit{
     alert("A mensagem foi enviada com sucesso!");
     this.formContato.reset();
   }
+
+
 }

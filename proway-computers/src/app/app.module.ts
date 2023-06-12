@@ -1,7 +1,8 @@
+
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+//import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -10,7 +11,8 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component';
 import { FormsModule } from '@angular/forms';
-
+import { CarrinhoComponent } from './carrinho/carrinho.component';
+//import { NgxMaskModule } from 'ngx-mask';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     NaoEncontradaComponent,
     BarraPesquisaComponent,
+    //CarrinhoComponent
 
   ],
   imports: [
@@ -26,9 +29,15 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
-    FormsModule
+    FormsModule,
+
+ // NgxMaskModule.forRoot({
+    //dropSpecialCharacters: false
+ //}),
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+
 })
 export class AppModule { }

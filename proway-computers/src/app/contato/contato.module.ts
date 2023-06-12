@@ -6,6 +6,7 @@ import { ContatoComponent } from './contato.component';
 import { ReactiveFormsModule } from '@angular/forms';
 //import { NgxMaskModule, IConfig } from 'ngx-mask'
 //import { NgxMaskModule, IConfig } from 'ngx-mask'
+//import { NgxMaskModule } from 'ngx-mask';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     //NgxMaskModule
     //NgxMaskModule.forRoot(maskConfig)
     //NgxMaskModule.forRoot(maskConfigFunction),
+    //NgxMaskModule.forChild()
   ]
 
 })

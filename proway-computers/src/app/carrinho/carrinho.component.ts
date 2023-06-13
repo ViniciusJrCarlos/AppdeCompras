@@ -1,4 +1,3 @@
-//import { Routes } from '@angular/router';
 import { IProdutoCarrinho } from '../produtos';
 import { CarrinhoService } from './../carrinho.service';
 import { Component, OnInit } from '@angular/core';
@@ -13,13 +12,6 @@ export class CarrinhoComponent implements OnInit{
 
   itensCarrinho: IProdutoCarrinho [] = [];
   total = 0;
-
-  //constructor (
-
-      //public carrinhoService: CarrinhoService,
-      //private router: Routes
-
-  //) { }
 
   constructor(
     public carrinhoService: CarrinhoService,

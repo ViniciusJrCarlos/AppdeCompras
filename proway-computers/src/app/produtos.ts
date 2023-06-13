@@ -20,7 +20,7 @@ export interface IProdutoCarrinho extends IProduto {
 export const produtos: IProduto[]  = [
 
 
-  { id: 1, descricao: "CD Metallica Novo", preco: 250.00, descricaoPreco: "à vista no pix", imagem: "/assets/images/metallica.jpg", quantidadeEstoque: 10 },
+  { id: 1, descricao: "CD Metallica Novo", preco: 250.00, descricaoPreco: "à vista no pix", imagem: "/assets/images/metallica.jpg", quantidadeEstoque: 15 },
   { id: 2, descricao: "CD Korn Novo", preco: 150.00, descricaoPreco: "à vista no pix", imagem: "/assets/images/korn.jpg", quantidadeEstoque: 10  },
   { id: 3, descricao: "CD A7X Novo", preco: 350.00, descricaoPreco: "à vista no pix", imagem: "/assets/images/a7x.jpg", quantidadeEstoque: 10  },
   { id: 4, descricao: "CD ArchEnemy Novo", preco: 250.00, descricaoPreco: "à vista no pix", imagem: "/assets/images/arch.jpg", quantidadeEstoque: 10  },

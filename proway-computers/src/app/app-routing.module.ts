@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 //import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
-
 //import { CarrinhoComponent } from './carrinho/carrinho.component';
+
 //import { CarrinhoComponent } from './carrinho/carrinho.module';
 
 const routes: Routes = [

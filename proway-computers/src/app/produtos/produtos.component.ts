@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProdutosComponent implements OnInit{
 
-  produtos: IProduto[] | undefined;
+  produtos: IProduto[] | undefined
 
   constructor (
 

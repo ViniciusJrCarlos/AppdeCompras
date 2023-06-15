@@ -29,7 +29,7 @@ export const produtos: IProduto[]  = [
   { id: 7, descricao: "CD Sorrow", preco: 150.00, descricaoPreco: "à vista no pix",            imagem: "/assets/images/sorrow.jpg", quantidadeEstoque: 10  },
   { id: 8, descricao: "CD Blessthefall", preco: 100.00, descricaoPreco: "à vista no pix",      imagem: "/assets/images/bless.jpg", quantidadeEstoque: 10  },
   { id: 9, descricao: "CD The Prodigy Raro", preco: 550.00, descricaoPreco: "à vista no pix",  imagem: "/assets/images/prodigy.jpg", quantidadeEstoque: 10  },
-  { id: 10, descricao: "CD DJ MARKY", preco: 1000.00, descricaoPreco: "à vista no pix",        imagem: "/assets/images/djmarky.jpg", quantidadeEstoque: 10  }
+  { id: 10, descricao: "CD DJ MARKY", preco: 1000.00, descricaoPreco: "à vista no pix",        imagem: "/assets/images/djmarky.jpg", quantidadeEstoque: 10  },
 
 ]
 

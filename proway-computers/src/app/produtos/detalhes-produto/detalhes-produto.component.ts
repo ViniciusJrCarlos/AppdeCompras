@@ -21,6 +21,8 @@ export class DetalhesProdutoComponent implements OnInit {
     private notificacaoService: NotificacaoService,
     private carrinhoService: CarrinhoService
 
+
+
   ) {}
 
   ngOnInit(): void {

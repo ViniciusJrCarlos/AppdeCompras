@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProdutosComponent implements OnInit{
 
-  produtos: IProduto[] | undefined
+  produtos: IProduto[] | undefined;
 
   constructor (
 
@@ -18,7 +18,7 @@ export class ProdutosComponent implements OnInit{
     private route: ActivatedRoute
 
 
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     const produtos = this.produtosService.getAll();

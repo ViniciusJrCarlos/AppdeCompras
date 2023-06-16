@@ -10,7 +10,7 @@ import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.componen
 import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component';
 import { FormsModule } from '@angular/forms';
 //import { CarrinhoComponent } from './carrinho/carrinho.component';
-//import { NgxMaskModule } from 'ngx-mask';
+import { NgxMaskModule } from 'ngx-mask';
 
 @NgModule({
   declarations: [
@@ -28,11 +28,12 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MatSnackBarModule,
     FormsModule,
-
- // NgxMaskModule.forRoot({
+    //NgxMaskModule.forChild({dropSpecialCharacters: false}),
+ //NgxMaskModule.forRoot({
     //dropSpecialCharacters: false
  //}),
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 
